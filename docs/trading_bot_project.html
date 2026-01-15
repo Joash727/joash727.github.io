@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About me</title>
+<title>Trading bot Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,11 +86,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Profile</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./trading_bot_project.html"> 
+    <a class="nav-link active" href="./trading_bot_project.html" aria-current="page"> 
 <span class="menu-text">Trading Bot Project</span></a>
   </li>  
   <li class="nav-item">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About me</h1>
+<h1 class="title">Trading bot Project</h1>
 </div>
 
 
@@ -140,12 +140,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech.</p>
+<p>Developed an Arbitrage Trading Bot designed to identify and utilize price discrepancies for the same asset across different cryptocurrency exchanges. The primary goal was to calculate the difference between the lowest sell price on one exchange and the highest buy price on another and execute trades when the spread exceeded transaction fees.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Pictures/pic.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+<p><img src="Pictures/binance.png" class="img-fluid figure-img"></p>
+<figcaption>Binance</figcaption>
 </figure>
 </div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Pictures/crypto.com.png" class="img-fluid figure-img"></p>
+<figcaption>Crypto.com</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Developing the arbitrage trading bot presented several complex technical hurdles that required a disciplined approach to overcome. One of the most persistent issues involved managing API rate limits on platforms like Binance and Crypto.com, where frequent data requests often triggered temporary IP bans and forced the development of more efficient polling intervals. Beyond connectivity, the project faced significant execution latency challenges, as the narrow profit margins in arbitrage often vanished in milliseconds before a trade could be finalized. Furthermore, calculating true profitability proved difficult because the algorithm had to be constantly refined to account for hidden costs such as exchange trading fees, withdrawal taxes, and market slippage. These obstacles highlighted the necessity of rigorous data cleaning and naming convention mapping to ensure that identical assets were accurately tracked across different exchange environments.</p>
 
 
 

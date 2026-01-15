@@ -1,5 +1,18 @@
 ---
-title: "About me"
+title: "Joash"
 ---
 
+## About Me
 I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech.
+
+![](Pictures/pic.jpg){fig-align="center" width=40%}
+
+
+## Education
+* **Singapore Institute of Technology** | B.Sc in Fintech
+* **Relevant Coursework**: Financial Engineering, Data Visualization, and Quantitative Trading.
+
+## Interests
+* **Algorithmic Trading**: Developing bots for Binance and Crypto.com.
+* **Data Science**: Visualizing market trends using MACD and Candlestick charts.
+* **Blockchain Technology**: Exploring arbitrage opportunities in DeFi.

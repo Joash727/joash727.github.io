@@ -6,11 +6,13 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: Personal Project
-      - href: Data Visualization.qmd
+        text: Profile
+      - href: trading_bot_project.qmd
+        text: Trading Bot Project
+      - href: Data_Visualization.qmd
         text: Data Visualization
+      - href: Reflection.qmd
+        text: Reflection
 
 format:
   html:

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About me</title>
+<title>Data Visualization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Profile</span></a>
   </li>  
   <li class="nav-item">
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Trading Bot Project</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Data_Visualization.html"> 
+    <a class="nav-link active" href="./Data_Visualization.html" aria-current="page"> 
 <span class="menu-text">Data Visualization</span></a>
   </li>  
   <li class="nav-item">
@@ -112,7 +112,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quantitative-market-data" id="toc-quantitative-market-data" class="nav-link active" data-scroll-target="#quantitative-market-data">Quantitative Market Data</a></li>
+  <li><a href="#technical-challenges-and-rationale" id="toc-technical-challenges-and-rationale" class="nav-link" data-scroll-target="#technical-challenges-and-rationale">Technical Challenges and Rationale</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -123,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About me</h1>
+<h1 class="title">Data Visualization</h1>
 </div>
 
 
@@ -140,14 +147,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech.</p>
+<p>I developed a stock analysis dashboard to monitor market volatility, specifically focusing on the analysis of AAPL stock performance. I created this dashboard to identify market momentum; I wanted to create a tool that could visually signal high-probability trading windows by processing complex price data in real-time. My rationale for this specific layout is to use a candlestick chart with a MACD indicator which indicates good entry points.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Pictures/pic.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:40.0%"></p>
+<p><img src="Pictures/Stock_analysis_chart.png" class="img-fluid figure-img"></p>
+<figcaption>AAPL Stock Analysis Chart</figcaption>
 </figure>
 </div>
+<section id="quantitative-market-data" class="level3">
+<h3 class="anchored" data-anchor-id="quantitative-market-data">Quantitative Market Data</h3>
+<p>To support the visual analysis, the table below provides a granular view of the raw numerical values processed by the dashboard during a specific trading window. This data allows for a detailed audit of the signals seen in the visual chart.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Timestamp (SGT)</th>
+<th style="text-align: left;">Asset</th>
+<th style="text-align: left;">Close Price</th>
+<th style="text-align: left;">MACD Value</th>
+<th style="text-align: left;">Signal Line</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2025-10-11 03:55</td>
+<td style="text-align: left;">AAPL</td>
+<td style="text-align: left;">$245.28</td>
+<td style="text-align: left;">1.25</td>
+<td style="text-align: left;">1.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-10-11 03:56</td>
+<td style="text-align: left;">AAPL</td>
+<td style="text-align: left;">$245.40</td>
+<td style="text-align: left;">1.30</td>
+<td style="text-align: left;">1.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-10-11 03:57</td>
+<td style="text-align: left;">AAPL</td>
+<td style="text-align: left;">$245.15</td>
+<td style="text-align: left;">1.28</td>
+<td style="text-align: left;">1.18</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2025-10-11 03:58</td>
+<td style="text-align: left;">AAPL</td>
+<td style="text-align: left;">$245.50</td>
+<td style="text-align: left;">1.35</td>
+<td style="text-align: left;">1.22</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2025-10-11 03:59</td>
+<td style="text-align: left;">AAPL</td>
+<td style="text-align: left;">$245.28</td>
+<td style="text-align: left;">1.32</td>
+<td style="text-align: left;">1.25</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="technical-challenges-and-rationale" class="level3">
+<h3 class="anchored" data-anchor-id="technical-challenges-and-rationale">Technical Challenges and Rationale</h3>
+<p>Developing this stock analysis dashboard presented several technical hurdles, particularly in managing high-frequency data streams to ensure the MACD and candlestick layers remained synchronized during periods of high volatility. I specifically chose the Moving Average Convergence Divergence (MACD) indicator because it provides a reliable measure of momentum and trend direction, which is essential for identifying high-probability entry points in a stock like AAPL. By analyzing the relationship between two moving averages of prices, the MACD allowed the system to filter out market noise and focus on genuine trend reversals.</p>
+<p>Integrating an interactive data table was a strategic choice to satisfy the requirement for sharing quantitative data in a structured format. While the chart provides a high-level visual summary, the data table allows for a granular inspection of the raw numerical values, such as the exact opening and closing prices that form each candlestick. This dual-layer approach ensures that the visualization is not purely artistic but serves as a functional tool for data-driven storytelling, allowing users to verify the trends seen in the graph against the actual underlying figures.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

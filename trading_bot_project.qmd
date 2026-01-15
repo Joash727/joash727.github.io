@@ -1,0 +1,18 @@
+---
+title: "Trading bot Project"
+---
+
+Developed an Arbitrage Trading Bot designed to identify and utilize price discrepancies for the same asset across different cryptocurrency exchanges. The primary goal was to calculate the difference between the lowest sell price on one exchange and the highest buy price on another and execute trades when the spread exceeded transaction fees.
+
+::: {layout-ncol=2}
+![Binance](Pictures/binance.png)
+
+![Crypto.com](Pictures/crypto.com.png)
+:::
+
+
+
+Developing the arbitrage trading bot presented several complex technical hurdles that required a disciplined approach to overcome. One of the most persistent issues involved managing API rate limits on platforms like Binance and Crypto.com, where frequent data requests often triggered temporary IP bans and forced the development of more efficient polling intervals. Beyond connectivity, the project faced significant execution latency challenges, as the narrow profit margins in arbitrage often vanished in milliseconds before a trade could be finalized. Furthermore, calculating true profitability proved difficult because the algorithm had to be constantly refined to account for hidden costs such as exchange trading fees, withdrawal taxes, and market slippage. These obstacles highlighted the necessity of rigorous data cleaning and naming convention mapping to ensure that identical assets were accurately tracked across different exchange environments.
+
+
+
