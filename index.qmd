@@ -9,10 +9,10 @@ I am currently a Applied Computing (Fintech) student in Singapore Institute of T
 
 
 ## Education
-* **Singapore Institute of Technology** | B.Sc in Fintech
-* **Relevant Coursework**: Financial Engineering, Data Visualization, and Quantitative Trading.
+* **Singapore Institute of Technology** | B.Sc in Fintech (2025-2028)
+* **Temasek Polytechnic**: | Diploma in Marketing (2020-2023)
 
 ## Interests
-* **Algorithmic Trading**: Developing bots for Binance and Crypto.com.
-* **Data Science**: Visualizing market trends using MACD and Candlestick charts.
+* **Investing**: Utilize technicial analysis and macro economics to dentify long-term growth oppotunties.
+* **Badminton**: I enjoy playing badminton during my free time as a way to release stress and stay active.
 * **Blockchain Technology**: Exploring arbitrage opportunities in DeFi.

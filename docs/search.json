@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About me",
+    "title": "Joash",
     "section": "",
     "text": "I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech."
   },
@@ -47,5 +47,26 @@
     "title": "Trading bot Project",
     "section": "",
     "text": "Developed an Arbitrage Trading Bot designed to identify and utilize price discrepancies for the same asset across different cryptocurrency exchanges. The primary goal was to calculate the difference between the lowest sell price on one exchange and the highest buy price on another and execute trades when the spread exceeded transaction fees.\n\n\n\n\n\n\nBinance\n\n\n\n\n\n\n\nCrypto.com\n\n\n\n\n\nDeveloping the arbitrage trading bot presented several complex technical hurdles that required a disciplined approach to overcome. One of the most persistent issues involved managing API rate limits on platforms like Binance and Crypto.com, where frequent data requests often triggered temporary IP bans and forced the development of more efficient polling intervals. Beyond connectivity, the project faced significant execution latency challenges, as the narrow profit margins in arbitrage often vanished in milliseconds before a trade could be finalized. Furthermore, calculating true profitability proved difficult because the algorithm had to be constantly refined to account for hidden costs such as exchange trading fees, withdrawal taxes, and market slippage. These obstacles highlighted the necessity of rigorous data cleaning and naming convention mapping to ensure that identical assets were accurately tracked across different exchange environments."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Joash",
+    "section": "",
+    "text": "I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Joash",
+    "section": "Education",
+    "text": "Education\n\nSingapore Institute of Technology | B.Sc in Fintech (2025-2028)\nTemasek Polytechnic: | Diploma in Marketing (2020-2023)"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Joash",
+    "section": "Interests",
+    "text": "Interests\n\nInvesting: Utilize technicial analysis and macro economics to dentify long-term growth oppotunties.\nBadminton: I enjoy playing badminton during my free time as a way to release stress and stay active.\nBlockchain Technology: Exploring arbitrage opportunities in DeFi."
   }
 ]
