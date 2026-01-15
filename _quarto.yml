@@ -3,20 +3,21 @@ project:
   output-dir: docs
   
 website:
-  title: "temp_website"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Personal Project
+      - href: Data Visualization.qmd
+        text: Data Visualization
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: darkly
     css: styles.css
     toc: true
-
+    toc-depth: 3
+    toc-location: left
 
 

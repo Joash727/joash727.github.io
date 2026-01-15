@@ -1,0 +1,14 @@
+---
+title: "Reflection on the use of GenAI"
+format: html
+---
+
+What is the GenAI tool you have used? Why did you choose it? I used Gemini to assist me with this lab because of its ability to process screenshots of my RStudio environment and provide real-time troubleshooting for Quarto website configuration.
+
+How did the GenAI tool help you in completing the assessment? The tool helped me draft the technical "story" for my arbitrage bot and provided the specific Markdown code needed to format my Stock_analysis_chart.png at 80% width. It also guided me through updating the _quarto.yml file when my new pages weren't appearing in the navigation bar.
+
+What do you think are beneficial about the tool? It is extremely beneficial for debugging syntax errors in YAML and Markdown that are easy to miss manually. It acted as a "thought partner," allowing me to focus on the content while it handled the repetitive formatting tasks.
+
+What do you think are challenging about the tool? The main challenge was ensuring the AI understood my specific file paths and naming conventions; I had to be very precise about naming my files (like Data Visualization.qmd) to get the right advice.
+
+How do you think GenAI tools will assist you for your future study or work? In the future, I see these tools as essential for rapid prototyping and learning new coding frameworks. They can help bridge the gap between having a technical idea (like a trading bot) and presenting it professionally on a digital platform.

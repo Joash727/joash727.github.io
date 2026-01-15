@@ -1,0 +1,7 @@
+---
+title: "Data Visualization"
+---
+
+I developed a stock analysis dashboard to monitor market volatility, specifically focusing on the analysis of AAPL stock performance. I created this dashboard to identify market momentum, I wanted to create a tool that could visually signal high-probability trading windows by processing complex price data in real-time. My rationale for this specific layout is to use a candlestick chart with a MACD indicator which indicates good entry points. 
+
+![AAPL Stock Analysis Chart](Stock_analysis_chart.png){width=80%}

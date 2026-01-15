@@ -2,7 +2,7 @@
 title: "temp_website"
 ---
 
-This is a Quarto website.
+I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

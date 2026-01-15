@@ -4,13 +4,20 @@
     "href": "index.html",
     "title": "temp_website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I am currently a Applied Computing (Fintech) student in Singapore Institute of Technology. Passionate about the evolving world of IT and finance, with a strong interest in how technology drives innovation in areas such as data analytics, blockchain, and fintech.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Personal Project",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Developed an Arbitrage Trading Bot designed to identify and exploit price discrepancies for the same asset across different cryptocurrency exchanges. The primary goal was to calculate the difference between the lowest sell price on one exchange and the highest buy price on another—and execute trades when the spread exceeded transaction fees.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Data Visualization.html",
+    "href": "Data Visualization.html",
+    "title": "Data Visualization",
+    "section": "",
+    "text": "I developed a stock analysis dashboard to monitor market volatility, specifically focusing on the analysis of AAPL stock performance. I created this dashboard to identify market momentum, I wanted to create a tool that could visually signal high-probability trading windows by processing complex price data in real-time. My rationale for this specific layout is to use a candlestick chart with a MACD indicator which indicates good entry points.\n\n\n\nAAPL Stock Analysis Chart"
   }
 ]
