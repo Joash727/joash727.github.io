@@ -1,0 +1,5 @@
+---
+title: "Personal Project"
+---
+
+Developed an Arbitrage Trading Bot designed to identify and exploit price discrepancies for the same asset across different cryptocurrency exchanges. The primary goal was to calculate the difference between the lowest sell price on one exchange and the highest buy price on another and execute trades when the spread exceeded transaction fees.
